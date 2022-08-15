@@ -2,7 +2,7 @@ export default {
     name: 'comment',
     title: 'Comment',
     type: 'document',
-    flieds: [
+    fields: [
         {
             name: 'postedBy',
             title: 'Posted By',

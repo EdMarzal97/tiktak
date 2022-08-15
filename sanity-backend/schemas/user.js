@@ -2,7 +2,7 @@ export default {
     name: 'user',
     title: 'User',
     type: 'document',
-    flieds: [
+    fields: [
         {
             name: 'userName',
             title: 'User Name',
