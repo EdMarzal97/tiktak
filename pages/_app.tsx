@@ -11,7 +11,15 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   if(isSSR) return null;
 
-  return <Component {...pageProps} />
+  return (
+    <div>
+      <Navbar></Navbar>
+      <div className="flex gap-6 md:gap-20">
+
+      </div>
+      <Component {...pageProps} />
+    </div>
+  )
 }
 
 export default MyApp
