@@ -12,7 +12,11 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div></div>
+      <div
+        className="block xl:hidden m-2 ml-4 mt-3 text-xl"
+      >
+          {showSidebar ? <ImCancelCircle /> : <AiOutlineMenu />}
+      </div>
     </div>
   )
 }
