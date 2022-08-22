@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NextPage } from 'next';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
@@ -7,8 +7,13 @@ import { AiFillHome, AiOutlineMenu } from 'react-icons/ai';
 import { ImCancelCircle } from 'react-icons/im';
 
 const Sidebar = () => {
+  const [showSidebar, setShowSidebar ] = useState(true);
+
+
   return (
-    <div>Sidebar</div>
+    <div>
+      <div></div>
+    </div>
   )
 }
 
