@@ -37,8 +37,11 @@ const Sidebar = () => {
               </Link>
             </div>
             {!userProfile && (
-              <div> 
-                <p> Log in to enjoy videos </p>
+              <div className="px-2 py-4 hidden xl:block"> 
+                <p className='text-gray-400'> Log in to enjoy videos </p>
+                <div className='pr-4'>
+                  <GoogleLogin clientId=""/>
+                </div>
               </div>
             )}
         </div>
