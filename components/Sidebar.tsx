@@ -26,6 +26,9 @@ const Sidebar = () => {
                   <p className='text-2xl'>
                     <AiFillHome />
                   </p>
+                  <span>
+                    For you
+                  </span>
                 </div>
               </Link>
             </div>
