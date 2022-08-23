@@ -36,10 +36,10 @@ const Sidebar = () => {
                 </div>
               </Link>
             </div>
+            {!userProfile && (
+              
+            )}
         </div>
-        {!userProfile && (
-          
-        )}
       )}
     </div>
   )
