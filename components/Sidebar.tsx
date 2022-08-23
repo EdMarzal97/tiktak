@@ -9,6 +9,8 @@ import { ImCancelCircle } from 'react-icons/im';
 const Sidebar = () => {
   const [showSidebar, setShowSidebar ] = useState(true);
 
+  const normalLink = 'flex items-center gap-3 hover:bg-primary p-3 justify-center xl: justify-start cursor-pointer font-semibold text-[#F51997]'
+
 
   return (
     <div>
