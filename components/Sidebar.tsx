@@ -37,7 +37,9 @@ const Sidebar = () => {
               </Link>
             </div>
             {!userProfile && (
-              
+              <div> 
+                <p> Log in to enjoy videos </p>
+              </div>
             )}
         </div>
       )}
