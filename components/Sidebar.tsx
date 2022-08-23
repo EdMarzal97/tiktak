@@ -40,7 +40,12 @@ const Sidebar = () => {
               <div className="px-2 py-4 hidden xl:block"> 
                 <p className='text-gray-400'> Log in to enjoy videos </p>
                 <div className='pr-4'>
-                  <GoogleLogin clientId=""/>
+                  <GoogleLogin 
+                    clientId=""
+                    onSuccess={() => {}}
+                    onFailure={() => {}}
+                    cookiePolicy='single_host_origin'
+                  />
                 </div>
               </div>
             )}
