@@ -42,7 +42,9 @@ const Sidebar = () => {
                 <div className='pr-4'>
                   <GoogleLogin 
                     clientId=""
-                    render={  }
+                    render={ (renderProps) => (
+                      
+                    ) }
                     onSuccess={() => {}}
                     onFailure={() => {}}
                     cookiePolicy='single_host_origin'
