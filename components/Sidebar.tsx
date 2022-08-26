@@ -44,7 +44,7 @@ const Sidebar = () => {
                     clientId=""
                     render={ (renderProps) => (
                       <button
-                        className='bg-white text-lg tex-[#F51997]'
+                        className='bg-white text-lg text-[#F51997] border-[1px] border-[#F51997] font-semibold px-6 py-3 rounded-md outline-none w-full mt-3 hover:text-white hover:bg-[#F51197]'
                         onClick={renderProps.onClick}
                         disabled={renderProps.disabled}
                       >Log In</button>
