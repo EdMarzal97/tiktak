@@ -43,7 +43,11 @@ const Sidebar = () => {
                   <GoogleLogin 
                     clientId=""
                     render={ (renderProps) => (
-                      
+                      <button
+                        className='bg-white text-lg tex-[#F51997]'
+                        onClick={renderProps.onClick}
+                        disabled={renderProps.disabled}
+                      >Log In</button>
                     ) }
                     onSuccess={() => {}}
                     onFailure={() => {}}
